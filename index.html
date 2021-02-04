@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1 id="title">Example Survey Form</h1>
+</head>
+<body>
+<p id="description">An example survey form</p>
+<form id="survey-form">
+    <label id="name-label" for="name">name: </label>
+    <input type="text" id="name" name="name"><br>
+
+    <label id="email-label" for="email">email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label id="number-label" for="number">number:</label>
+    <input type="number" id="number" name="number" min="1" max="5"><br>
+
+    <label for="dropdown">Choose:</label>
+    <select id="dropdown" name="dropdown">
+        <option value="option1">option 1</option>
+    </select><br>
+
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br>
+
+    <label for="w3review">Review of W3Schools:</label>
+    <textarea id="w3review" name="w3review">
+    Please enter any comments.
+    </textarea>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
